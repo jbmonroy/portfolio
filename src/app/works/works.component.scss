@@ -18,18 +18,20 @@
                 justify-content: space-between;
                 .top {
                     .date {
-                        color: #ffffffdb;
+                        color: #000;
                         font-size: .85rem;
+                        padding: .5rem;
                     }
                     .description {
                         font-family: 'IBM Plex Sans',sans-serif;
-                        color: #ffffffdb;
-                        padding: .5rem 0;
+                        color: #000;
+                        padding: .5rem;
                     }
                 }
                 .bottom {
                     .title {
                         font-size: 1.4rem;
+                        padding: .5rem;
                     }
                 }
             }

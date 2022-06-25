@@ -18,9 +18,9 @@ export class WorksComponent implements OnInit {
       {
         next: (res:Array<any>)=>{
           this.repos = res;
-          for(let i = 0; i < 30; i++){
-            this.repos.push(res[0]);
-          }
+          // for(let i = 0; i < 30; i++){
+          //   this.repos.push(res[0]);
+          // }
         }
       }
     ); 

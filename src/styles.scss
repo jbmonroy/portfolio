@@ -2,17 +2,17 @@
 @import '~perfect-scrollbar/css/perfect-scrollbar.css';
 
 :root {
-    --color-1:#3a86ff;
+    --color-1:#fff;
     --color-2:#fcbf49;
 }
 html, body {
     background-color: var(--color-1);
-    color: #fff;
+    color: #000;
     font-family: 'Cabin', sans-serif;
     font-size: 16px;
 }
 a, a:visited, a:hover, a:link {
-    color: #fff;
+    color: #000;
     font-weight: 500;
 }
 h1, h2 {

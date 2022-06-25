@@ -37,7 +37,7 @@ export class SidebarComponent implements OnInit, AfterViewInit {
     }
     
     const writer = new Typewriter(target, options);
-    writer.changeTypeColor('white').changeCursorColor('white').type('Jorge Bobadilla').rest(50000).start();
+    writer.changeTypeColor('#000').changeCursorColor('#000').type('Jorge Bobadilla').rest(50000).start();
   }
 }
 interface LinkModel {
