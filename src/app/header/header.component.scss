@@ -1,0 +1,25 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-items: center;
+    height: 3.5rem;
+    box-shadow: 0 0 29px #3c3c3c6b;
+    border-bottom: 1px solid #3d3f7b4d;
+    .section-2 {
+        .list-menu {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            .item-menu {
+                cursor: pointer;
+                padding: 0 1rem;
+                transition: all .3s;
+                &:hover {
+                    opacity: .8;
+                }
+            }
+        }
+    }
+}
